@@ -8,19 +8,19 @@ public class Generator : MonoBehaviour
     [SerializeField]private float _timeToInstantiate; // Time for spawn
     [SerializeField]private Vector3 _offsetPositionObstacle; //Position to spawn the obstacle 
     [SerializeField]private Vector3 _offsetPositionFloor; //Position to spawn the floor
-    [SerializeField]private GameObject _obstacle; //GameObject -> Obstacle
-    [SerializeField]private GameObject _floor; //GameObject -> Floor
+    [SerializeField]private GameObject _obstacle;
+    [SerializeField]private GameObject _floor;
     private bool _firstTime = true; // Is it the first time that it generates the obstacle?
-    public bool isDead = false; // Is dead the bird?
+    public bool isDead = false;
     
-    void Start() //Function -> Start is called before the first frame update
+    void Start()
     {
         InvokeRepeating("CreateFloor" , _timeToInstantiate , _timeToInstantiate); //Call a function in loop
     }
 
-    public void InvokeObstacle() //Function -> The game was began when player press space/
+    public void InvokeObstacle() //Function -> The game was began when player press space/click
     {
-        StartCoroutine(BeginPlay());//Start delay the Obstacle function
+        StartCoroutine(BeginPlay()); //Start delay the Obstacle function
     }
 
     IEnumerator BeginPlay() //Function -> The game was began
@@ -32,10 +32,10 @@ public class Generator : MonoBehaviour
         }
         else
         {
-            yield return new WaitForSeconds(5); //Delay
+            yield return new WaitForSeconds(5);
         }
 
-        InvokeRepeating("CreateObstacle" , _timeToInstantiate , _timeToInstantiate); //Call a function in loop
+        InvokeRepeating("CreateObstacle" , _timeToInstantiate , _timeToInstantiate);
     }
 
     void CreateFloor()//Funcion ->Spawn a Floor 
@@ -50,8 +50,8 @@ public class Generator : MonoBehaviour
     {   
         if(!isDead)
         {
-            Vector3 Location = new Vector3(_offsetPositionObstacle.x, Random.Range(5.5f , 9.0f),0); //Set Location the obstacle
-            Instantiate(_obstacle,Location,Quaternion.identity); //Spawn a obstacle
+            Vector3 Location = new Vector3(_offsetPositionObstacle.x, Random.Range(5.5f , 9.0f),0); 
+            Instantiate(_obstacle,Location,Quaternion.identity);
         }
     }
 }

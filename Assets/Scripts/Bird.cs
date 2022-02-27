@@ -16,32 +16,32 @@ public class Bird : MonoBehaviour
     [SerializeField]private GameObject _deadScreen; //UI -> GameOver Screen
     [SerializeField]private TMPro.TextMeshProUGUI _highScore; //UI -> Text HighScore
     [SerializeField]private TMPro.TextMeshProUGUI[] _textScore; //UI -> Score
-    [SerializeField]private Generator _generator; // Reference to Generator Script
-    [SerializeField]private Rigidbody2D _rb; //Reference Rigidbody2D
-    [SerializeField]private Animator _animator; //Reference Animator
-    [SerializeField]private AudioSource _audioSource; //AudioSource
+    [SerializeField]private Generator _generator;
+    [SerializeField]private Rigidbody2D _rb;
+    [SerializeField]private Animator _animator;
+    [SerializeField]private AudioSource _audioSource;
     [SerializeField]private AudioSource _audioPoints; //Audio -> Points
     [SerializeField]private AudioClip _audioHit; //Audio -> The bird hit something
     [SerializeField]private AudioClip _audioWing; //Audio -> The bird flying
-    [HideInInspector]public bool begin = false; //Began the game?
-    [HideInInspector]public bool _isDead = false; //Is the Bird dead?
-    private int _score = 0; //The points the player has.
+    [HideInInspector]public bool begin = false;
+    [HideInInspector]public bool _isDead = false;
+    private int _score = 0;
 
-    void Start() //Function -> Start is called before the first frame update
+    void Start()
     {
-        _rb = GetComponent<Rigidbody2D>(); //GetComponent Rigidbody2D
-        _animator = gameObject.GetComponent<Animator>(); //GetComponent Animator
+        _rb = GetComponent<Rigidbody2D>();
+        _animator = gameObject.GetComponent<Animator>();
         _generator = GameObject.Find("Generator").GetComponent<Generator>(); //Find Generator in the game and gets component
         _rb.gravityScale = 0; //Gravity 0 before begin play
         _animator.SetTrigger("Loop"); //Animation of the bird loop fly
         Time.timeScale = 1; //The game is not in Pause
     }
 
-    void Update() //Function -> Update is called once per frame
+    void Update()
     {
-        BeforeBegin();//Before the gameplay begins
-        AfterBegin();//After the gameplay begins
-        BirdDirection();// The bird effect changes the view direction up or down depending on the speed of the force
+        BeforeBegin();
+        AfterBegin();
+        BirdDirection();
     }
 
     private void BeforeBegin() //Function -> Before the gameplay begins
@@ -49,8 +49,8 @@ public class Bird : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !begin || Input.GetKeyDown(KeyCode.Space) && !begin) 
         {
             _rb.gravityScale = 2; //Gravity 2 after begin play
-            _animator.ResetTrigger("Loop"); //The Bird Loop Animation Reset
-            _animator.SetTrigger("Stay"); //The Bird Stay Animation
+            _animator.ResetTrigger("Loop");
+            _animator.SetTrigger("Stay"); 
             begin = true;
             _generator.InvokeObstacle(); //Call for Functions Generator Scripts
             _intruction.SetActive(false); //Hide Intruction

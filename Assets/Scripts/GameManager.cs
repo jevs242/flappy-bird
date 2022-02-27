@@ -19,11 +19,11 @@ public class GameManager : MonoBehaviour
 
     public void Exit() //Function -> Quit the game
     {
-        Application.Quit(); //Quit the game
+        Application.Quit();
     }
     
     public void Reset() //Function -> Reset the level
     {
-        SceneManager.LoadScene("FlappyBird"); //Reset the level
+        SceneManager.LoadScene("FlappyBird");
     }
 }
