@@ -20,7 +20,7 @@ public class Bird : MonoBehaviour
     [SerializeField]private Rigidbody2D _rb; //Reference Rigidbody2D
     [SerializeField]private Animator _animator; //Reference Animator
     [SerializeField]private AudioSource _audioSource; //AudioSource
-    [SerializeField]private AudioClip _audioPoints; //Audio -> Points
+    [SerializeField]private AudioSource _audioPoints; //Audio -> Points
     [SerializeField]private AudioClip _audioHit; //Audio -> The bird hit something
     [SerializeField]private AudioClip _audioWing; //Audio -> The bird flying
     [HideInInspector]public bool begin = false; //Began the game?
@@ -140,7 +140,7 @@ public class Bird : MonoBehaviour
         }
         else if(other.gameObject.CompareTag("Score"))
         {
-            ChangeAudioClip(_audioPoints);
+            _audioPoints.Play();
             _score += 1; //Add 1 to the score
             for(int i = 0; i < _textScore.Length ; i++)
             {
