@@ -111,6 +111,10 @@ public class Bird : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Limit"))
         {
+            if(!_isDead)
+            {
+                ChangeAudioClip(_audioHit);
+            }
             _generator.isDead = true;
            _animator.SetTrigger("Dead");
            _isDead = true;
