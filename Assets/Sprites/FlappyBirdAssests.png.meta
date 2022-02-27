@@ -1,0 +1,1270 @@
+fileFormatVersion: 2
+guid: 36b145d86d4ddb34d963561cbc48f4d1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlappyBirdAssests_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 144
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c9ef42af9f9724b96806b5117741bd
+      internalID: -1124595200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 97
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4a81469a92ad748a9476895fbbcf03
+      internalID: -720446084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 97
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d560b1b92206743b8f8fa2e4999188
+      internalID: -1130233936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 194
+        width: 168
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e57914edb607a4eb4a1c823fc3b4d1
+      internalID: 283348208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_4
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 201
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6111ed225717dc42b50372d188dc893
+      internalID: 2080675138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 205
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97855fcddbbf74b458d03829042310a9
+      internalID: 1078024025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 191
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf0d331eb0121a49a53f42fdd0c8fb0
+      internalID: 1728445728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_7
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 160
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd967a37edae2b4f90d6279ffa9b1ba
+      internalID: -1586696881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_8
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 162
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d48403d02551fb498b773c51816ba9b
+      internalID: 1036985681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_10
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 164
+        width: 93
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad252d8d853eeb4fb6c4e28c4571ea1
+      internalID: 602251413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_12
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 168
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afccba662f2bc6d4eaa329bf55b77a99
+      internalID: -945638333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 136
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a710df24e6b96eb408331ddd4f35ebbf
+      internalID: 1941549000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 148
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c3daa20a84ee14aaae8aeea1cf3f4c
+      internalID: -580921381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 144
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f78bb7e2ed0d204683ec9337778cd41
+      internalID: -1050193974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 145
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346935b0c3caa2640b1158ac0571579d
+      internalID: 363002547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 152
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502e0ff7c71e1e446accb9c83e655875
+      internalID: 511151056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 152
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b1d011fd490146b7bd790a2e047a6
+      internalID: -1678671436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_20
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 152
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d43d12097d9e754e86648a8127c6473
+      internalID: 406822709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_21
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 136
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c0455c8f686a049abb59151af3321e
+      internalID: -1359680898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_22
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 140
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a1a50dc1a5fed4eab00638c7af945e
+      internalID: 1523991964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 117
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4065f8249505c944a57ded346995287
+      internalID: 932381979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_24
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 127
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9be11765e9fc741bfb11ceac95ba70
+      internalID: -1622681122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_25
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 124
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795cbe9d730cc8d40a86a63ea62cd505
+      internalID: -1074068426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 108
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08d064a0f4ad7641b36def5c1d74de5
+      internalID: -1890271499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_27
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 108
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c8d93369781014f8337512e44346cf
+      internalID: 1142612590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_28
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 92
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9825a39b1f80de540848037c5ac58f69
+      internalID: -1876321791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_29
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 94
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a06cae66afeb3742b476da62603debe
+      internalID: 810790659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 94
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff98f82fab614944883cd089a2fe2de
+      internalID: 568530977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 94
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789a91e2df956754a94d3d09886cd81a
+      internalID: -642507540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_32
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 94
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e91d19c372c7b042912006f77d4702c
+      internalID: 507171827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_33
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 92
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662509c33211f054d9db36e3a187e421
+      internalID: 2009174846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 84
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f997823642aab1e42a2f0cebda60f520
+      internalID: 1167360632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 66
+        width: 96
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7c4283efc5cda4aa2e270820c4c82d
+      internalID: -1837031682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_37
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 72
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfab0b627381bf04ab436f8af8f53a10
+      internalID: 831060773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_38
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 73
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be3a053a9456a64286f9237342958b3
+      internalID: -1440072834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_39
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079b6f5e0f0c470478981d26860ada09
+      internalID: 1566951667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_40
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3f8bd0dcd68ff439d9888a71a8b940
+      internalID: 381275277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_41
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0582c9479a11f364992aa3f9da88cb33
+      internalID: 1300160993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_42
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd1c628b6f8bc9409ff0ea0d4028ca5
+      internalID: 871336602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_43
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 70
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506b8dbafb0fa93428424dc6fb036244
+      internalID: 585646379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_44
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 70
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c66915ea2858c8449710e5ad2d7f2b1
+      internalID: 1191559158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_45
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 70
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6783c19c24cf5e64dbb2515f79cd247b
+      internalID: 880248170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_46
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 70
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5475b0f49323b78448622d49a2f32438
+      internalID: 1723225478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_47
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf92ac2af50b404f981833145c71dbb
+      internalID: 1182301058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 69
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de36dcfb3dfa1ff46a075cca49f9fe45
+      internalID: -170447056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_49
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f28d8a56a7f5c4997779b312c31c7e
+      internalID: 1487707848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_50
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6196de74c8c0e4bbde2eef2242c8f2
+      internalID: 1669959179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_51
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 8
+        width: 113
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5d828996c67c74b8f71364ea68016b
+      internalID: 81240190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_52
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 61
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d021c44484f9aff4fa883ab8159977dc
+      internalID: 1109926539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_53
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 36
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ca6b0364051ff43b9fadf9486657d2
+      internalID: 264073591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_54
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 35
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041980563d2c22e49895fc0d46580cf1
+      internalID: -1963585022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdAssests_55
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 9
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cb7bf18f8cbd5479ab402a56e815e8
+      internalID: 50092223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FlappyBirdAssests_33: 2009174846
+      FlappyBirdAssests_5: 1078024025
+      FlappyBirdAssests_43: 585646379
+      FlappyBirdAssests_51: 81240190
+      FlappyBirdAssests_44: 1191559158
+      FlappyBirdAssests_10: 602251413
+      FlappyBirdAssests_11: 1061991178
+      FlappyBirdAssests_34: 1167360632
+      FlappyBirdAssests_2: -1130233936
+      FlappyBirdAssests_26: -1890271499
+      FlappyBirdAssests_25: -1074068426
+      FlappyBirdAssests_48: -170447056
+      FlappyBirdAssests_0: -1124595200
+      FlappyBirdAssests_46: 1723225478
+      FlappyBirdAssests_13: 1847903921
+      FlappyBirdAssests_1: -720446084
+      FlappyBirdAssests_18: 511151056
+      FlappyBirdAssests_30: 568530977
+      FlappyBirdAssests_4: 2080675138
+      FlappyBirdAssests_53: 264073591
+      FlappyBirdAssests_50: 1669959179
+      FlappyBirdAssests_32: 507171827
+      FlappyBirdAssests_52: 1109926539
+      FlappyBirdAssests_6: 1728445728
+      FlappyBirdAssests_21: -1359680898
+      FlappyBirdAssests_35: 837023549
+      FlappyBirdAssests_39: 1566951667
+      FlappyBirdAssests_31: -642507540
+      FlappyBirdAssests_29: 810790659
+      FlappyBirdAssests_19: -1678671436
+      FlappyBirdAssests_7: -1586696881
+      FlappyBirdAssests_15: -580921381
+      FlappyBirdAssests_17: 363002547
+      FlappyBirdAssests_3: 283348208
+      FlappyBirdAssests_23: 932381979
+      FlappyBirdAssests_27: 1142612590
+      FlappyBirdAssests_37: 831060773
+      FlappyBirdAssests_28: -1876321791
+      FlappyBirdAssests_47: 1182301058
+      FlappyBirdAssests_9: 379934724
+      FlappyBirdAssests_20: 406822709
+      FlappyBirdAssests_36: -1837031682
+      FlappyBirdAssests_14: 1941549000
+      FlappyBirdAssests_45: 880248170
+      FlappyBirdAssests_40: 381275277
+      FlappyBirdAssests_24: -1622681122
+      FlappyBirdAssests_8: 1036985681
+      FlappyBirdAssests_16: -1050193974
+      FlappyBirdAssests_38: -1440072834
+      FlappyBirdAssests_41: 1300160993
+      FlappyBirdAssests_55: 50092223
+      FlappyBirdAssests_42: 871336602
+      FlappyBirdAssests_22: 1523991964
+      FlappyBirdAssests_12: -945638333
+      FlappyBirdAssests_54: -1963585022
+      FlappyBirdAssests_49: 1487707848
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
