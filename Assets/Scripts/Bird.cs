@@ -14,8 +14,8 @@ public class Bird : MonoBehaviour
     [SerializeField]private GameObject _intruction; //UI -> Instruction Screen
     [SerializeField]private GameObject _gameScreen; //UI -> Game Screen
     [SerializeField]private GameObject _deadScreen; //UI -> GameOver Screen
-    [SerializeField]private TMPro.TextMeshProUGUI _highScore; //UI -> Text HighScore
-    [SerializeField]private TMPro.TextMeshProUGUI[] _textScore; //UI -> Score
+    [SerializeField]private Text _highScore; //UI -> Text HighScore
+    [SerializeField]private Text[] _textScore; //UI -> Score
     [SerializeField]private Generator _generator;
     [SerializeField]private Rigidbody2D _rb;
     [SerializeField]private Animator _animator;
