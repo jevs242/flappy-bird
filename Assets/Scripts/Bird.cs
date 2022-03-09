@@ -46,7 +46,7 @@ public class Bird : MonoBehaviour
 
     private void BeforeBegin() //Function -> Before the gameplay begins
     {
-        if (Input.GetMouseButtonDown(0) && !begin || Input.GetKeyDown(KeyCode.Space) && !begin) 
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began || Input.GetMouseButtonDown(0) && !begin || Input.GetKeyDown(KeyCode.Space) && !begin) 
         {
             _rb.gravityScale = 2; //Gravity 2 after begin play
             _animator.ResetTrigger("Loop");
@@ -70,8 +70,7 @@ public class Bird : MonoBehaviour
 
     private void AfterBegin() //Function -> After the gameplay begins
     {
-
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began || Input.GetKeyDown(KeyCode.Space))
         {
             if(!_isDead)
             {
@@ -89,6 +88,7 @@ public class Bird : MonoBehaviour
                 _animator.SetTrigger("Stay");
             }
         }
+
     }
 
     private void BirdDirection() //Function -> The bird effect changes the view direction up or down depending on the speed of the force
