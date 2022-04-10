@@ -1,3 +1,6 @@
+//Jose Velazquez
+//Generator
+
 using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;

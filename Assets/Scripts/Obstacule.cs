@@ -1,3 +1,6 @@
+//Jose Velazquez
+//Obstacule
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
